@@ -47,6 +47,22 @@ build/
 *.code-workspace
 
 # ========================
+# Testes / Qualidade
+# ========================
+.pytest_cache/
+htmlcov/
+.mypy_cache/
+coverage.xml
+*.db
+*.sqlite3
+
+# ========================
+# Logs
+# ========================
+*.log
+logs/
+
+# ========================
 # Sistema Operacional
 # ========================
 .DS_Store
