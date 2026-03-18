@@ -1,0 +1,53 @@
+# ========================
+# Frontend (React + Vite)
+# ========================
+front/node_modules
+front/dist
+front/.vite
+front/.env
+front/.env.local
+front/.env.*.local
+
+# ========================
+# Backend (Python / FastAPI)
+# ========================
+back/__pycache__/
+back/**/__pycache__/
+back/*.pyc
+back/.venv/
+back/venv/
+back/.env
+back/.env.local
+
+# ========================
+# Python geral
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# ========================
+# Ambiente / Segredos
+# ========================
+.env
+.env.local
+.env.*
+!.env.example
+
+# ========================
+# VS Code
+# ========================
+.vscode/
+*.code-workspace
+
+# ========================
+# Sistema Operacional
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
