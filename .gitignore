@@ -18,6 +18,7 @@ back/.venv/
 back/venv/
 back/.env
 back/.env.local
+bak/node_modules
 
 # ========================
 # Python geral
